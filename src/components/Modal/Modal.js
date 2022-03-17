@@ -21,9 +21,6 @@ function Modal({ children, isOpen, handleClose }) {
       <div className="modal-content">{children}</div>
     </div></ReactPortal>
     
-
-
-  
   );
 }
 export default Modal;
